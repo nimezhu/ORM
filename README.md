@@ -15,9 +15,11 @@ orm_plot is an R function allowing to plot ORM data from formated files (see scr
 
 - Usage: In R:
   - load the orm file:
+
     	 dataset<-read.table("orm_file.txt",header=FALSE)
 
   - load the script:
+
      source("Path/to/script.R")
      
   - Plot using the chromosome you want, the start position (1000000 by default), the stop position (50000000 by defaut), the orm dataset, the features you want to plot (all by defaut):
