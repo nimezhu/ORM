@@ -42,7 +42,7 @@ The final file structure should be a 8 column tab separated file. (See the orm_e
 
 ## orm_plot
 orm_plot is an R function allowing to plot ORM data from formated files (see script to format the files).
-- Input file: tab separated 6 columns with the feature type, the chr, the start position, the stop position, the id of the fiber and the smart y position (see the script to format the files). No header.
+- Input file: tab separated 8 columns with the feature type, the chr, the start position, the stop position, the id of the fiber, the start position of the fiber, the stop position of the fiber and the smart y position (see the script to format the files). No header.
 
 
 - Usage: In R:
