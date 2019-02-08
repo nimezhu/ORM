@@ -8,7 +8,7 @@ The script starts with a ".gtf" file containing fibers and nucleotides data, and
 
 sample_1.gtf and sample_1.bed ; sample_2.gtf and sample_2.bed ; ...
 
-The final file structure should be a 6 column tab separated file. (See the orm_example.txt file)
+The final file structure should be a 8 column tab separated file. (See the orm_example.txt file)
 
 - 1st column:
 
@@ -32,7 +32,11 @@ The final file structure should be a 6 column tab separated file. (See the orm_e
 
   The fiber uniq id number.
 
-- 6th column:
+- 6th and 7th column:
+
+  The Fiber corresponding to the feature start and stop position
+
+- 8th column:
 
   The y position to plot each feature.
 
