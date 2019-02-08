@@ -25,7 +25,7 @@ done
 ## Fusion all features from the same fiber on one line
 for file in *_merge_sorted.txt; do
     echo $file;
-    cat $file | awk 'BEGIN{id="";min=0;max=0} //{if($5==id){printf $0"\t"min"\t"max"\tnewline\t"}; if($5!=id){if(NR!=1){print "_"}; min=$3; max=$4; printf $0"\t"min"\t"max"\tnewline\t"; id=$5}} END{print ""}' | sed 's/       newline _//g' > ${file%_sorted.txt}_oneline.txt;
+    cat $file | awk 'BEGIN{id="";min=0;max=0} //{if($5==id){printf $0"\t"min"\t"max"\tnewline\t"}; if($5!=id){if(NR!=1){print "_"}; min=$3; max=$4; printf $0"\t"min"\t"max"\tnewline\t"; id=$5}} END{print ""}' | sed 's/	newline	_//g' > ${file%_sorted.txt}_oneline.txt;
 done
 
 # Sorting by position to give an intelligent y value for plotting wihtout overlapping each fiber but maximazing the used space
