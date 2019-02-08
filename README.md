@@ -8,7 +8,7 @@ The script starts with a ".gtf" file containing fibers and nucleotides data, and
 
 sample_1.gtf and sample_1.bed ; sample_2.gtf and sample_2.bed ; ...
 
-The final file structure should be a 6 column tab separated file. (See the orm_example.txt.)
+The final file structure should be a 6 column tab separated file. (See the orm_example.txt file)
 
 - 1st column:
 
