@@ -8,7 +8,8 @@ The script starts with a ".gtf" file containing fibers and nucleotides data, and
 
 sample_1.gtf and sample_1.bed ; sample_2.gtf and sample_2.bed ; ...
 
-The final file structure should be a 6 column tab separated file with:
+The final file structure should be a 6 column tab separated file. (See the orm_example.txt.)
+
 - 1st column:
 
   The feature name: "Fiber", "Segment" or "Nucleotide"
@@ -33,7 +34,7 @@ The final file structure should be a 6 column tab separated file with:
 
 - 6th column:
 
-The y position to plot the feature.
+The y position to plot each feature.
 
 ## orm_plot
 orm_plot is an R function allowing to plot ORM data from formated files (see script to format the files).
