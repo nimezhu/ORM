@@ -34,7 +34,7 @@ The final file structure should be a 6 column tab separated file. (See the orm_e
 
 - 6th column:
 
-The y position to plot each feature.
+  The y position to plot each feature.
 
 ## orm_plot
 orm_plot is an R function allowing to plot ORM data from formated files (see script to format the files).
