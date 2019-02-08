@@ -2,7 +2,7 @@
 Tools for ORM
 
 ## script for orm file formating
-The purpose is to attribute a "y" value to each fiber to allow them to be plotted in a smart manner, wihtout overlap.
+The purpose of this script is to attribute a "y" value to each fiber to allow them to be plotted in a smart manner, wihtout overlap.
 The script starts with a ".gtf" file containing fibers and nucleotides data, and a ".bed" file containing the replicating segments. These two files need to have matching names for each sample:
 sample_1.gtf and sample_1.bed
 sample_2.gtf and sample_2.bed
