@@ -16,9 +16,11 @@ orm_plot is an R function allowing to plot ORM data from formated files (see scr
 - Usage: In R:
   - load the orm file:
 
+
     	 dataset<-read.table("orm_file.txt",header=FALSE)
 
   - load the script:
+
 
      source("Path/to/script.R")
      
