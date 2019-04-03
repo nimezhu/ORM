@@ -1,4 +1,4 @@
-# ORM
+# ORM_plot
 Tools for ORM
 
 ## script for orm file formating
