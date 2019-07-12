@@ -26,7 +26,6 @@ class ORM:
         self.fval = []
         if len(d)>1:
             for f in d[1:]:
-                pass
                 if f[0]=="Nucleotide":
                     self.feat.append("N")
                     self.fpos.append(int(f[2])-self.start)
