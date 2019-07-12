@@ -16,8 +16,8 @@ Each entry is a Fiber
     Feature Number
 - 8th column:
     Fiber Features:
-        N represents Nucleotide
-        S represents Segment
+        N represents Nucleotide,
+        S represents Segment,
     Example:
         N,N,S,N
 - 9th column:
